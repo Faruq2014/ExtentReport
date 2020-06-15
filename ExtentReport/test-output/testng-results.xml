@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44762" started-at="2020-06-10T20:36:53 EDT" finished-at="2020-06-10T20:37:38 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44762" started-at="2020-06-10T20:36:53 EDT" finished-at="2020-06-10T20:37:38 EDT">
+      <class name="com.ReportWithListener.MultipoleTest">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="openApplication" is-config="true" duration-ms="11061" started-at="2020-06-10T20:36:53 EDT" finished-at="2020-06-10T20:37:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="urlTest()[pri:1, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="urlTest" duration-ms="32" started-at="2020-06-10T20:37:04 EDT" finished-at="2020-06-10T20:37:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="closeApplication" is-config="true" duration-ms="733" started-at="2020-06-10T20:37:04 EDT" finished-at="2020-06-10T20:37:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="openApplication" is-config="true" duration-ms="10714" started-at="2020-06-10T20:37:05 EDT" finished-at="2020-06-10T20:37:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="titleTest()[pri:2, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="titleTest" duration-ms="23" started-at="2020-06-10T20:37:16 EDT" finished-at="2020-06-10T20:37:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="closeApplication" is-config="true" duration-ms="684" started-at="2020-06-10T20:37:16 EDT" finished-at="2020-06-10T20:37:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="openApplication" is-config="true" duration-ms="10458" started-at="2020-06-10T20:37:16 EDT" finished-at="2020-06-10T20:37:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="FAIL" signature="linkTest()[pri:3, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="linkTest" duration-ms="64" started-at="2020-06-10T20:37:27 EDT" finished-at="2020-06-10T20:37:27 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.ReportWithListener.MultipoleTest.linkTest(MultipoleTest.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="closeApplication" is-config="true" duration-ms="713" started-at="2020-06-10T20:37:27 EDT" finished-at="2020-06-10T20:37:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="openApplication" is-config="true" duration-ms="9492" started-at="2020-06-10T20:37:27 EDT" finished-at="2020-06-10T20:37:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="SKIP" signature="skipTest()[pri:4, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="skipTest" duration-ms="1" started-at="2020-06-10T20:37:37 EDT" finished-at="2020-06-10T20:37:37 EDT">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[ We will build it latter. ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException:  We will build it latter. 
+at com.ReportWithListener.MultipoleTest.skipTest(MultipoleTest.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.ReportWithListener.MultipoleTest@68bbe345]" name="closeApplication" is-config="true" duration-ms="712" started-at="2020-06-10T20:37:37 EDT" finished-at="2020-06-10T20:37:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.ReportWithListener.MultipoleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
